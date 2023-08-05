@@ -1,0 +1,50 @@
+@media screen and (max-width: 880px) {
+  .background {
+    height: 100%;
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+  .card {
+    display: block;
+    width: 327px;
+    height: 535px;
+
+    &_imageSection {
+      height: 105px;
+      background-image: url(/images/bg-pattern-mobile.svg);
+      background-position: 39px 0px;
+      background-repeat: no-repeat;
+      .womanImgDesktop {
+        display: none;
+      }
+      .womanImgMobile {
+        display: block;
+        width: 237px;
+        position: absolute;
+        top: -107px;
+        left: 41px;
+      }
+      .boxImg {
+        display: none;
+      }
+    }
+    &_faqSection {
+      padding: 24px;
+      h1 {
+        text-align: center;
+      }
+      .accordion {
+        &_item {
+          &_question {
+            p {
+              font-size: 13px;
+            }
+            .imgContainer {
+              padding-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
